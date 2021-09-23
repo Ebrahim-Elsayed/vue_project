@@ -3,11 +3,18 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> |
-      <router-link to="/Ourworks">Ourworks</router-link>
+      <router-link to="/header">Header</router-link> |
+      <router-link to="/ourwork">OurWork</router-link> |
+      <router-link to="/ourteam">OurTeam</router-link> |
+      <router-link to="/feature">Feature</router-link> |
+      <router-link to="/contactus">ContactUS</router-link> |
+      <router-link to="/footer">Footer</router-link> |
     </div>
     <router-view/>
   </div>
 </template>
+
+
 
 <style>
 #app {
