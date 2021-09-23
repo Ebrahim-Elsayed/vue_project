@@ -8,12 +8,6 @@ export default {
     components:{
         OurWork
     },
-
-//   mounted() {
-//     let externalScript = document.createElement('script')
-//     externalScript.setAttribute('src', 'js/custom.js')
-//     document.head.appendChild(externalScript)
-//   },
 }
 
 

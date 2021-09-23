@@ -11,6 +11,10 @@ import '../public/css/style.css'
 
 import '../public/css/all.min.css'
 
+// import '../public/js/custom'
+
+// import '../public/js/custom.js'
+
 import router from './router'
 Vue.config.productionTip = false
 
@@ -18,8 +22,6 @@ Vue.config.productionTip = false
 Vue.use(BootstrapVue)
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin)
-
-
 
 new Vue({
   router,

@@ -49,8 +49,8 @@ showLess.addEventListener('click' , function(){
 })
 //validation form
 let subject = document.querySelector(".subject");
-let email = document.querySelector(".email");
-let textArea = document.querySelector(".text-area");
+// let email = document.querySelector(".email");
+// let textArea = document.querySelector(".text-area");
 
 subject.addEventListener('blur' , function(){
      //console.log(this.value.length);

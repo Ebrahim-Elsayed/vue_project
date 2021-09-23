@@ -2,19 +2,17 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/header">Header</router-link> |
       <router-link to="/ourwork">OurWork</router-link> |
       <router-link to="/ourteam">OurTeam</router-link> |
       <router-link to="/feature">Feature</router-link> |
       <router-link to="/contactus">ContactUS</router-link> |
-      <router-link to="/footer">Footer</router-link> |
     </div>
+    
+    <Header/>
     <router-view/>
+    <Footer/>
   </div>
 </template>
-
-
 
 <style>
 #app {
@@ -38,3 +36,13 @@
   color: #42b983;
 }
 </style>
+
+<script>
+export default {
+    mounted() {
+    let externalScript = document.createElement('script')
+    externalScript.setAttribute('src', 'js/custom.js')
+    document.head.appendChild(externalScript)
+  },
+}
+</script>
